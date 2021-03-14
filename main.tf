@@ -1,7 +1,7 @@
 provider "google" {
   project = "My Project"
-  region  = "europe-west2"
-  zone    = "europe-west2-b"
+  region  = "us-central1"
+  zone    = "us-central1-c"
 }
 
 resource "google_compute_instance" "vm_instance" {
